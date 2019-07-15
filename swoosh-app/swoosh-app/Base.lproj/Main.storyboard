@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--page-1-->
+        <!--WelcomVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="page-1" id="BYZ-38-t0r" customClass="ViewController" customModule="swoosh_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomVC" customModule="swoosh_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,19 +82,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="bgImg" destination="jx3-PA-8Qo" id="iJ9-vu-nWb"/>
-                        <outlet property="swoosh" destination="y3I-te-KMw" id="1Zl-Iq-tTY"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="113.79310344827587"/>
         </scene>
-        <!--page-2-->
+        <!--LeagueVC-->
         <scene sceneID="8Ae-Tb-3eu">
             <objects>
-                <viewController title="page-2" id="yzF-r2-owP" sceneMemberID="viewController">
+                <viewController id="yzF-r2-owP" customClass="leagueVC" customModule="swoosh_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QYn-0W-RYU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -206,10 +202,10 @@
             </objects>
             <point key="canvasLocation" x="956" y="112.89355322338831"/>
         </scene>
-        <!--page-3-->
+        <!--SkillVC-->
         <scene sceneID="qSj-dH-esj">
             <objects>
-                <viewController title="page-3" id="BSh-s6-Uab" sceneMemberID="viewController">
+                <viewController id="BSh-s6-Uab" customClass="SkillVC" customModule="swoosh_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ccM-ya-WlR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

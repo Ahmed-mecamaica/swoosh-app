@@ -21,7 +21,10 @@ class ViewController: UIViewController {
         bgImg.frame = view.frame*/
         
     }
-
+    //call when we click back button
+    @IBAction func unwinedFromSkillVC(unwindSegue: UIStoryboardSegue){
+        
+    }
 
 }
 

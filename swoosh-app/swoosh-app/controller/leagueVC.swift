@@ -10,12 +10,16 @@ import UIKit
 
 class leagueVC: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func onNextTapped(_ sender: Any) {
+        performSegue(withIdentifier: "SkillVCSegue", sender: self)
+    }
 
     /*
     // MARK: - Navigation
